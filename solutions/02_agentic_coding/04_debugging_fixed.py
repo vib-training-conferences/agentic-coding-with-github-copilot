@@ -69,18 +69,20 @@ def compute_simple_pvalue(ctrl_values, treat_values):
     var1 = np.var(ctrl_arr, ddof=1)
     var2 = np.var(treat_arr, ddof=1)
 
+    # FIX 3: The standard error formula was wrong — each variance must be divided
+    # by its own sample size before summing. The buggy version used np.sqrt(var1 + var2)
+    # which ignores the denominator and greatly overestimates the standard error.
     se = np.sqrt(var1 / n1 + var2 / n2)
-    # FIX 3: The formula was correct, but we now guard against se == 0
-    # (which was already there) and ensure we use the correct t-distribution.
 
     if se == 0:
         return 1.0
 
     t_stat = (mean2 - mean1) / se
 
-    # FIX 4: Use a two-tailed p-value. scipy.stats.norm.sf gives the one-tailed
-    # probability; multiply by 2 for the two-tailed test. Also use the t-
-    # distribution with appropriate degrees of freedom (Welch's approximation).
+    # FIX 4: The buggy version used stats.norm.sf, which (a) assumes large samples
+    # and (b) gives a one-tailed p-value. The correct approach for small samples
+    # (n=3) is to use the t-distribution with Welch's degrees of freedom and
+    # to multiply by 2 for a two-tailed test.
     df_welch = (var1 / n1 + var2 / n2) ** 2 / (
         (var1 / n1) ** 2 / (n1 - 1) + (var2 / n2) ** 2 / (n2 - 1)
     )
@@ -97,8 +99,9 @@ def add_pvalues(result_df, original_df):
     for idx in result_df.index:
         gene_id = result_df.loc[idx, "gene_id"]
 
-        # FIX 5: Use original_df (which has the raw expression columns) instead
-        # of result_df (which only has means and fold changes).
+        # FIX 5: Bug 5 used result_df (which only has means and fold changes)
+        # instead of original_df (which has the raw per-sample expression columns
+        # ctrl_1…ctrl_3 and treat_1…treat_3). The raw values are needed for the t-test.
         gene_row = original_df[original_df["gene_id"] == gene_id].iloc[0]
 
         ctrl_vals = gene_row[control_cols].values.tolist()

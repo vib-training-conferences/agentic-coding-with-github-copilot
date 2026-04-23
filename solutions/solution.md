@@ -18,10 +18,12 @@ markdown files contain expected outputs and verification steps to check correctn
 
 ### Bug list for Exercise 2.4
 
-1. **Validation logic inverted** — `>= 0` should be `< 0` to catch negative values
-2. **Division by zero / log(0)** — missing pseudocount in `compute_log2_fold_change`
-3. **One-tailed p-value** — `stats.norm.sf` should use `stats.t.sf` × 2 for two-tailed
-4. **Wrong data source in `add_pvalues`** — used `result_df` instead of `original_df`
-5. **Bonferroni correction not capped** — adjusted p-values must be clipped to 1.0
-6. **Absolute value missing** — `get_significant_genes` should filter on `abs(log2_fc)`
-7. **Welch's t-test not used** — standard t-distribution used without checking variance equality
+| # | Function | Bug description | Fix |
+|---|----------|----------------|-----|
+| 1 | `load_and_validate_data` | Validation condition is inverted (`>= 0` raises for valid data) | Change to `< 0` |
+| 2 | `compute_log2_fold_change` | No pseudocount — causes division by zero and `log2(0) = -inf` | Add `pseudocount=1.0` to both means |
+| 3 | `compute_simple_pvalue` | Wrong standard error formula: `sqrt(var1 + var2)` ignores sample sizes | Use `sqrt(var1/n1 + var2/n2)` |
+| 4 | `compute_simple_pvalue` | One-tailed p-value using normal distribution for n=3 samples | Use two-tailed t-test with Welch's degrees of freedom |
+| 5 | `add_pvalues` | Expression values looked up from `result_df` (no raw columns) | Look up from `original_df` |
+| 6 | `apply_multiple_testing_correction` | Adjusted p-values not capped at 1.0 | Add `.clip(upper=1.0)` |
+| 7 | `get_significant_genes` | Missing `abs()` — only upregulated genes pass the threshold | Filter on `abs(log2_fold_change)` |

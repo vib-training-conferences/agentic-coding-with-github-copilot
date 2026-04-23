@@ -81,16 +81,18 @@ def compute_simple_pvalue(ctrl_values, treat_values):
     var1 = np.var(ctrl_values, ddof=1)
     var2 = np.var(treat_values, ddof=1)
 
-    # Bug 3: Missing parentheses around (var1/n1 + var2/n2) causes wrong result
-    se = np.sqrt(var1 / n1 + var2 / n2)
+    # Bug 3: Wrong formula for standard error — each variance should be divided
+    # by its own sample size before summing
+    se = np.sqrt(var1 + var2)
 
     if se == 0:
         return 1.0
 
     t_stat = (mean2 - mean1) / se
 
-    # Approximate p-value using normal distribution (valid for large n, but here n=3)
-    # Bug 4: This gives the one-tailed p-value; should be two-tailed (multiply by 2)
+    # Bug 4: This gives a one-tailed p-value using the normal distribution.
+    # For a two-tailed test with small samples, use the t-distribution and
+    # multiply by 2.
     from scipy import stats
     p_value = stats.norm.sf(abs(t_stat))
     return p_value
