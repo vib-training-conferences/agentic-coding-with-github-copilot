@@ -1,29 +1,22 @@
 ## Exercise: Manual agent loop with chat‑based coding
 
-**Duration:** 10–15 minutes  
-**Goal:** Experience both the power *and* the friction of chat‑based coding.
+
+**Duration**: 10-15 minutes
+**Goal**: Experience both the power and the friction of chat-based coding.
+
+In this short exercise, you will use a chat-based LLM to solve a small solving task. You can use any chat‑based LLM you like (ChatGPT, Copilot Chat, etc.). **We will not use any IDE integration or automation**. The goal is to experience the manual process of interacting with the model.
 
 ***
-
-### Setup
-
-- Students use **any chat‑based LLM** (ChatGPT, Copilot Chat, etc.)
-- No IDE integration yet
-- No automation
-
-***
-
-### Task
 
 **Problem statement:**
 
-> “Write a small Python script that reads a CSV file with two columns (`sample_id`, `value`), calculates the mean per sample, and writes the result to a new CSV file.”
+“Write a small Python script that reads a CSV file with two columns (`sample_id`, `value`), calculates the mean per sample, and writes the result to a new CSV file.”
 
 ***
 
-### Step 1 — Plan (explicit)
+### Step 1 — Plan
 
-Add this sentence to the prompt:
+Copy-paste the problem statement into the chatbot and add this sentence to the prompt:
 
 > “Before writing code, explain how you would approach this task step by step.”
 
@@ -39,10 +32,10 @@ Ask the model to generate the code. Copy the code into your editor (VS Code, Jup
 
 Check the code for correctness and completeness:
 
-*   Does it run?
-*   Are edge cases handled?
-*   Are assumptions documented?
-*   Does it match *your* expectation of correctness?
+- Does it run?
+- Are edge cases handled?
+- Are assumptions documented?
+- Does it match *your* expectation of correctness?
 
 ***
 
