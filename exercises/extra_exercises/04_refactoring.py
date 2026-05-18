@@ -1,5 +1,5 @@
 """
-Exercise 2.5: Refactoring and Optimizing an Existing Script
+Extra exercise: Refactoring and Optimizing an Existing Script
 
 This script performs a complete differential expression analysis pipeline.
 It works correctly but has several code quality issues:

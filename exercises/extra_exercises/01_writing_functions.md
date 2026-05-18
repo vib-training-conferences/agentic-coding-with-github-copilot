@@ -1,4 +1,4 @@
-# Exercise 2.1: Writing Functions with GitHub Copilot Autocomplete
+# Extra Exercise: Writing Functions with GitHub Copilot Autocomplete
 
 ## Learning Objective
 

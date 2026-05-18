@@ -1,4 +1,4 @@
-# Exercise 1.3: Optimizing Code with GitHub Copilot Chat
+# Extra exercise: Optimizing Code with GitHub Copilot Chat
 
 ## Learning Objective
 

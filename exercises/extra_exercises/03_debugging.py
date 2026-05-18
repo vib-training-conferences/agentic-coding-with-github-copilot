@@ -1,5 +1,5 @@
 """
-Exercise 2.4: Debugging Faulty Scripts
+Extra exercise: Debugging Faulty Scripts
 
 This Python script is supposed to process gene expression data and identify
 differentially expressed genes, but it contains SEVEN bugs.
