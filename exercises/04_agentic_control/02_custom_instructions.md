@@ -1,6 +1,11 @@
-# Exercise 2: Setting Rules with Custom Instructions
+## Exercise 2: Setting Rules with Custom Instructions
+
+**Duration:** 5-10 minutes
+**Goal:** In this exercise, we will see how to set custom instructions for GitHub Copilot.
 
 You can give Copilot a personality or set strict organizational coding rules. Let's force it to always write clean, documented CLI tools.
+
+***
 
 1. Create a file called `.github/copilot-instructions.md` in the root of the workspace (you may need to create the `.github` directory first).
 2. Add this rule to the file: 

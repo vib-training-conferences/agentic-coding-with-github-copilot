@@ -9,7 +9,7 @@
 
 # Now generate a new function "def_gc_content_v2(dna_sequence):" that does the same.
 # Is the code the same as the one generated in the previous step? If not, what are the
-# differences?
+# differences? Is it better or just different?
 
 
 
@@ -19,12 +19,13 @@
 
 
 
-# Note: the code might be similar for small and generic functions, but it can differ more for
-# longer and complex functions.
+# Note: the code might be similar for small and generic functions, but for longer and more complex
+# functions, you might get more diverse suggestions.
 
 
 
-# Finally, test the functions with a sample DNA sequence.
+# Finally, test the functions with a sample DNA sequence. (Add comment lines to hint Copilot to write
+# the test code, e.g., "Test the gc_content function with a sample DNA sequence.")
 
 
 
@@ -34,7 +35,7 @@
 
 
 # Optional: expand the pipeline with new functions that:
-# Transcribe DNA to RNA (replace T with U)
-# Give the reverse complement of a DNA sequence (replace A<->T, C<->G)
+# - Transcribe DNA to RNA (replace T with U)
+# - Give the reverse complement of a DNA sequence (replace A<->T, C<->G)
 
 
