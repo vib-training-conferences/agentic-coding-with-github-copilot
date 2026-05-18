@@ -1,4 +1,4 @@
-# Exercise: Build a Game
+# Mini-project: Build a Game
 
 Now that you have a good feel for how Github Copilot works, it is time to build something with it. The first thing you build with a new tool should be small, fun, and disposable, because that is how you learn what the tool can actually do without your stakes clouding the lesson. In this exercise, you will build a game with GitHub Copilot in a single HTML file. 
 
