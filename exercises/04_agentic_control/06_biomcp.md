@@ -1,6 +1,8 @@
-# Connecting GitHub Copilot to BioMCP
+## Exercise 6: Connecting GitHub Copilot to BioMCP
 
 BioMCP is a Model Context Protocol (MCP) server that connects AI assistants to leading public biomedical data sources (such as PubMed, ClinicalTrials.gov, and ClinVar). Connecting it allows Copilot to answer complex biomedical questions and retrieve relevant data directly in your editor.
+
+***
 
 ### Step-by-Step Guide
 
@@ -28,7 +30,7 @@ BioMCP is a Model Context Protocol (MCP) server that connects AI assistants to l
     }
    ```
 
-   *Make sure to replace the command path with the actual path to your `biomcp` executable.*
+   >Make sure to replace the command path with the actual path to your `biomcp` executable.
 
 3. **Verify the Connection**:
     After saving the configuration, you should see a notification confirming that the BioMCP server is connected. You can also check if the biomcp server is listed in the MCP servers panel (`Cmd/Ctrl + Shift + P` > `MCP: List Servers`). Click on the BioMCP server to see its status and logs. If necessary, click "Start Server" to launch it.

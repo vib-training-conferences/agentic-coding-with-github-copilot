@@ -1,6 +1,11 @@
-# Exercise 5: Defining Agent Skills
+## Exercise 5: Defining Agent Skills
+
+**Duration:** 15-30 minutes
+**Goal:** In this exercise, you will create a custom GitHub Copilot Agent Skill that can orchestrate multiple scripts and terminal commands to perform a complex task.
 
 GitHub Copilot Agent Skills allow you to define highly specific toolchains, scripts, and instructions that Copilot can automatically load and execute when relevant. Unlike simple prompt files, Skills are stored in a specific directory structure with a `SKILL.md` file and can be granted permission to run terminal commands to orchestrate real workflows.
+
+***
 
 In this exercise, we will create an agent skill that orchestrates our Python pipeline to analyze new DNA datasets.
 
@@ -30,3 +35,11 @@ In this exercise, we will create an agent skill that orchestrates our Python pip
 6. Open Copilot Chat.
 7. Trigger the skill by prompting Copilot with something that matches its description: *"Analyze the sequence in #file:sample_dna.txt"*.
 8. Watch as Copilot automatically discovers the `sequence-analyzer` skill, adopts the instructions, understands the local Python scripts context, and executes the terminal commands step by step!
+
+> Note: Depending on the model that you are using, you may need to explicitly mention the skill name in your prompt, e.g., *"Use the sequence-analyzer skill to analyze the sequence in #file:sample_dna.txt"*. Especially smaller and older models are less likely to call skills autonomously.
+
+***
+
+### Warning
+
+Agent Skills are extremely powerful and can run any terminal command you allow them to. Always review the `SKILL.md` instructions and the files in the skill's directory before invoking it, especially if it's a skill you didn't create yourself.

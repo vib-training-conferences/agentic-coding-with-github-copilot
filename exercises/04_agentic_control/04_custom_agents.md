@@ -1,8 +1,19 @@
-# Exercise 4: Defining Custom Agents
+## Exercise 4: Defining Custom Agents
 
-While prompt files can act as simple slash commands (like `/review`), we can also create full **Custom Agents**. An agent (often invoked with an `@` mention like `@biocritic`) acts as a dedicated participant in the chat. It doesn't just inject text; it can be endowed with specific persona instructions and, depending on the platform's configuration, given access to specialized tools and context.
+**Duration:** 15-30 minutes
+**Goal:** In this exercise, we will learn how to create custom agents in GitHub Copilot.
 
-In this exercise, we will define a custom agent using a prompt file designed to act as an autonomous reviewer.
+While prompt files can act as simple slash commands (like `/review`), we can also create full **Custom Agents**. An agent (often invoked with an `@` mention like `@biocritic`) acts as a dedicated participant in the chat. It doesn't just inject text; it can be given a specific persona, instructions, and given access to specialized tools and context.
+
+***
+
+**Problem statement:**
+
+In this exercise we will create a custom agent called `@biocritic` that specializes in reviewing bioinformatics code for biological correctness and efficiency. We will then create a second agent, `@bioengineer`, that takes the critic's feedback and implements the necessary code changes.
+
+***
+
+### 1. Creating a Custom Agent (@biocritic)
 
 1. In your workspace root, create a directory named `.github/agents` (if you haven't already).
 2. Inside that folder, create a new file named `biocritic.md`.
@@ -26,7 +37,9 @@ In this exercise, we will define a custom agent using a prompt file designed to 
 6. Ask your new agent: `@biocritic analyze the #selection for a pipeline that processes 3GB of data.`
 7. Observe how the agent embodies the persona and strictly follows the structured reporting format defined in its configuration.
 
-### Optional Follow-up: Agent Hand-offs
+***
+
+### 2. Agent Hand-offs (@biocritic -> @bioengineer)
 
 To truly leverage agentic workflows, you can string different specialized agents together. Let's create a builder agent that takes the critic's feedback and writes the updated code.
 
