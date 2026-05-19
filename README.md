@@ -1,7 +1,7 @@
 <!--
-author:   name last_name
+author:   Jolan Heyse
 email:    trainingandconferences@vib.be
-version:  2.0.0
+version:  0.0.1
 language: en
 narrator: UK English Female
 
@@ -25,7 +25,7 @@ link:     https://fonts.googleapis.com/css2?family=Open+Sans&display=swap
 link:  https://raw.githubusercontent.com/vib-tcp/material-liascript/master/vib-styles.css
 
 @edition:  1st 
-@CourseTitle: replace by course title
+@CourseTitle: Agentic Coding with GitHub Copilot
 
 import:   https://raw.githubusercontent.com/vib-tcp/training_material_template/refs/heads/main/macro.md
 
@@ -37,7 +37,7 @@ import:   https://raw.githubusercontent.com/vib-tcp/training_material_template/r
 
 Hello and welcome to our workshop! We are very happy to have you here.
 
-This is the @edition edition of this workshop, jointly organised by VIB and ELIXIR.
+This is the @edition edition of this workshop, organised by VIB.
 
 > We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript.
 > It is a distributed way of creating and sharing educational content hosted on github.
@@ -46,19 +46,41 @@ This is the @edition edition of this workshop, jointly organised by VIB and ELIX
 
 ## General context
 
-This workshop is dedicated to ...
+In this hands-on workshop, you'll learn how to move beyond chat-based coding and design structured, agentic coding workflows. Using GitHub Copilot, you will learn to write effective prompts, leverage LLMs for multi-file coding tasks, and design workflows that plan, act, and iterate safely. The course features a mix of explanations, live demonstrations, and hands-on exercises, giving you the opportunity to apply LLMs to real-world coding challenges. You’ll also explore how to evaluate agent outputs, implement guardrails, and address important risks and governance issues. By the end of the training, you'll be able to use LLMs for structured coding tasks, design robust agentic workflows, and enhance productivity in your own projects.
+
+#### Learning Outcomes
+- Explain key concepts and terminology related to agentic coding (agents, planning loops, tools, guardrails).
+- Describe the agent loop (goal → plan → act → observe → revise) and its implications for software development.
+- Summarize common failure modes and risks of coding agents.
+- Write effective prompts and task descriptions that guide agent behavior.
+- Critically review agent-generated code for correctness, maintainability, and security.
+- Design an end-to-end agentic workflow for a realistic coding scenario.
+- Produce a reusable prompt or workflow template that can be applied in your own projects
+
+#### Approach
+To follow along effectively with this course and do the exercises, you need to have a license for GitHub Copilot.
+
+> Tip: Students and teachers can apply for a free Pro license through GitHub Education. 
+
+#### Complimentary reading:
+If you want to learn more about how to use generative AI, optimize your prompting techniques, and get to know LLM tools that help with literature research, writing, image generation, etc., you can follow our course on Strategic Use of Generative AI.
+
+#### Required skills
+- Basic programming experience (Python or other)
+- Familiarity with chat-based LLM tools
+- Familiarity with Git is advisable
+- GitHub account (and license)
 
 ## Proposed Schedule
 
-Schedule day 1:
-
-- 9:30 - 11:00 - session
-- 11:00 - 11:15 - break
-- 11:15 - 12:45 - session
-- 12:45 - 13:45 - lunch
-- 13:45 - 15:15 - session
-- 15:15 - 15:30 - break
-- 15:30 - 17:00 - session
+- 09:30 - 10:30 - Chat-based coding: capabilities and limits
+- 10:30 - 10:45 - Coffee break
+- 10:45 - 12:30 - Essential features of GitHub Copilot
+- 12:30 - 13:30 - Lunch break
+- 13:30 - 14:45 - Agentic control and workflow automation
+- 14:45 - 15:30 - Responsible use of GitHub Copilot
+- 15:30 - 15:45 - Coffee break
+- 15:45 - 17:00 - Mini-project: implement an end-to-end agentic workflow
 
 </section>
 
@@ -66,7 +88,7 @@ Schedule day 1:
 
 > <i class="fa fa-lock"></i> **License:** [Creative Commons Attribution 4.0 International  License](https://creativecommons.org/licenses/by/4.0/deed.en)
 >
-> <i class="fa fa-user"></i> **Target Audience:** Researchers, trainers, training providers
+> <i class="fa fa-user"></i> **Target Audience:** Researchers, staff scientists, group leaders, industry professionals, trainers, training providers
 >
 > <svg xmlns="http://www.w3.org/2000/svg" height="14" width="16" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M384 64c0-17.7 14.3-32 32-32H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448v96c0 17.7-14.3 32-32 32H320v96c0 17.7-14.3 32-32 32H192v96c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h96V320c0-17.7 14.3-32 32-32h96V192c0-17.7 14.3-32 32-32h96V64z"/></svg> **Level:** Beginner  
 >
