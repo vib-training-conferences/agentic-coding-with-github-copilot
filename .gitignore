@@ -1,3 +1,6 @@
+# Customization for copilot
+.github/
+
 # Python
 __pycache__/
 *.py[cod]
