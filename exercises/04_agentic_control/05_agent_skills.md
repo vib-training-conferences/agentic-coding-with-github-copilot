@@ -11,7 +11,7 @@ In this exercise, we will create an agent skill that orchestrates our Python pip
 
 1. Take a quick look at the sample DNA file located at `data/sample_dna.txt`.
 2. In your workspace root, create a new directory for your skill: `.github/skills/sequence-analyzer/`.
-3. Copy the three Python scripts (`01_transcribe.py`, `02_translate.py`, `03_analyze.py`) from `exercises/04_agentic_control/scripts/` into this new `sequence-analyzer` directory. When a skill is invoked, Copilot makes all files in the skill's directory available alongside the instructions!
+3. Copy the three Python scripts (`01_transcribe.py`, `02_translate.py`, `03_analyze.py`) from `exercises/04_agentic_control/DNA_analysis_pipeline/` into this new `sequence-analyzer` directory. When a skill is invoked, Copilot makes all files in the skill's directory available alongside the instructions!
 4. Inside of `sequence-analyzer`, create a file named `SKILL.md`. 
 5. Add the following content to `SKILL.md`. Notice the YAML frontmatter which defines the skill's identity, metadata, and allowed tools:
 
