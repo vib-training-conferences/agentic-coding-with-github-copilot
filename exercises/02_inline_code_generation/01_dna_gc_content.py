@@ -7,7 +7,7 @@
 
 
 
-# Now generate a new function "def_gc_content_v2(dna_sequence):" that does the same.
+# Now generate a new function "def gc_content_v2(dna_sequence):" that does the same.
 # Is the code the same as the one generated in the previous step? If not, what are the
 # differences? Is it better or just different?
 
