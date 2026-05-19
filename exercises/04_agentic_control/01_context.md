@@ -5,7 +5,7 @@
 
 ***
 
-We will use the scripts in the `scripts/` folder for this exercise.
+We will use the scripts in the `DNA_analysis_pipeline/` folder for this exercise.
 
 1. Open `02_translate.py` and `03_analyze.py`.
 2. In the chat, ask: *"How do `#file:02_translate.py` and `#file:03_analyze.py` interact?"* Notice how directly referencing the files gives a much better answer than just asking a generic question like "how do my protein scripts work?".
