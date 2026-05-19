@@ -26,7 +26,7 @@ Use Copilot Chat in Ask mode to understand the context of the project and the pu
 
 You can highlight specific code to have Copilot explain it.
 
-- Open `script1.py` and highlight one of the functions. Ask Copilot to explain how it works.
+- Open `script1.R` and highlight one of the functions. Ask Copilot to explain how it works.
 - Review the explanation and ask follow-up questions if needed.
 
 ***

@@ -1,10 +1,9 @@
 filter_high_quality_variants <- function(variants, min_depth = 5) {
   # Filters variant calls based on minimum read depth.
-  pos_names <- names(variants)
-  for (position in pos_names) {
-    observations <- variants[[position]]
+  for (i in 1:length(variants)) {
+    observations <- variants[[i]]
     if (length(observations) < min_depth) {
-      variants[[position]] <- NULL
+      variants[[i]] <- NULL
     }
   }
   return(variants)
