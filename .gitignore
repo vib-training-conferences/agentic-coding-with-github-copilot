@@ -1,6 +1,13 @@
 # Customization for copilot
 .github/
 
+# Customization for cline
+.agents/
+.clinerules/
+
+# Dev Container
+.devcontainer/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -11,6 +18,9 @@ __pycache__/
 dist/
 build/
 .eggs/
+
+# VS Code settings
+.vscode/
 
 # Jupyter
 .ipynb_checkpoints/
