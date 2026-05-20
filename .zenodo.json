@@ -1,0 +1,40 @@
+{
+  "title": "Agentic Coding with GitHub Copilot",
+  "version": "v2026.05",
+  "license": "CC-BY",
+  "upload_type": "lesson",
+  "description": "<p>In this hands-on workshop, you'll learn how to move beyond chat-based coding and design structured, agentic coding workflows with GitHub Copilot.<\/p>",
+  "keywords": [
+    "AI",
+    "LLM",
+    "GitHub Copilot",
+    "agentic coding",
+    "software development",
+    "workflow automation"
+  ],
+  "access_right": "open",
+  "language": "eng",
+  "contributors": [
+    {
+      "name": "VIB",
+      "type": "rightsholder"
+    },
+    {
+        "name": "Bruna Piereck",
+        "type": "contributor"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Heyse, Jolan",
+      "affiliation": "VIB",
+      "orcid": "0000-0003-2179-0366",
+      "type": "contactperson"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "vibtcp"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 <!--
-author:   Jolan Heyse
-email:    jolan.heyse@vib.be
-version:  0.0.1
+author:   Alexander Botzki
+email:    alexander.botzki@vib.be
+version:  0.0.2
 language: en
 icon:     https://vib.be/sites/vib.sites.vib.be/files/logo_VIB_noTagline.svg
 narrator: US English Female

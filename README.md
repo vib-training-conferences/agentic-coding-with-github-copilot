@@ -48,15 +48,6 @@ This is the @edition edition of this workshop, organised by VIB.
 
 In this hands-on workshop, you'll learn how to move beyond chat-based coding and design structured, agentic coding workflows. Using GitHub Copilot, you will learn to write effective prompts, leverage LLMs for multi-file coding tasks, and design workflows that plan, act, and iterate safely. The course features a mix of explanations, live demonstrations, and hands-on exercises, giving you the opportunity to apply LLMs to real-world coding challenges. You’ll also explore how to evaluate agent outputs, implement guardrails, and address important risks and governance issues. By the end of the training, you'll be able to use LLMs for structured coding tasks, design robust agentic workflows, and enhance productivity in your own projects.
 
-#### Learning Outcomes
-- Explain key concepts and terminology related to agentic coding (agents, planning loops, tools, guardrails).
-- Describe the agent loop (goal → plan → act → observe → revise) and its implications for software development.
-- Summarize common failure modes and risks of coding agents.
-- Write effective prompts and task descriptions that guide agent behavior.
-- Critically review agent-generated code for correctness, maintainability, and security.
-- Design an end-to-end agentic workflow for a realistic coding scenario.
-- Produce a reusable prompt or workflow template that can be applied in your own projects
-
 #### Approach
 To follow along effectively with this course and do the exercises, you need to have a license for GitHub Copilot.
 
@@ -66,10 +57,7 @@ To follow along effectively with this course and do the exercises, you need to h
 If you want to learn more about how to use generative AI, optimize your prompting techniques, and get to know LLM tools that help with literature research, writing, image generation, etc., you can follow our course on Strategic Use of Generative AI.
 
 #### Required skills
-- Basic programming experience (Python or other)
-- Familiarity with chat-based LLM tools
-- Familiarity with Git is advisable
-- GitHub account (and license)
+
 
 ## Proposed Schedule
 
@@ -101,26 +89,31 @@ If you want to learn more about how to use generative AI, optimize your promptin
 >
 > <i class="fa fa-bookmark"></i> **Description**  This course consist of .....
 > 
-> <i class="fa fa-arrow-right"></i> **Learning Outcomes:**  
+> <i class="fa fa-arrow-right"></i> **Learning Outcomes:**
 > By the end of the course, learners will be able to:
 >
-> 1. Define what ..... [Remembering] 
+> 1. Explain key concepts and terminology related to agentic coding (agents, planning loops, tools, guardrails).
 >
-> 2. Discuss and explain ..... [Understanding] 
+> 2. Describe the agent loop (goal → plan → act → observe → revise) and its implications for software development.
 >
-> 3. Apply and modify ..... [Applying] 
+> 3. Summarize common failure modes and risks of coding agents.
 >
-> 4. Compare ..... [Analysing] 
+> 4. Write effective prompts and task descriptions that guide agent behavior.
 >
-> 5. Evaluate and select ..... [Evaluating] 
+> 5. Critically review agent-generated code for correctness, maintainability, and security.
 >
-> 6. Create and integrate ..... [Creating]
+> 6. Design an end-to-end agentic workflow for a realistic coding scenario.
 >
->> Check more about [Bloom's taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) to categorize the levels in educational goals
+> 7. Produce a reusable prompt or workflow template that can be applied in your own projects
 >
-> <i class="fa fa-hourglass"></i> **Time estimation**: 120 minutes
+> <i class="fa fa-hourglass"></i> **Time estimation**: Full day (6-7 hours)
 >
-> <i class="fa fa-asterisk"></i> **Requirements:** The (technical) installation requirements are described in the [installations](https://vibbits-nextflow-workshop.readthedocs.io/en/latest/installations.html) section.
+> <i class="fa fa-asterisk"></i> **Requirements:**
+>
+> - Basic programming experience (Python or other)
+> - Familiarity with chat-based LLM tools
+> - Familiarity with Git is advisable
+> - GitHub account (and license)
 >
 > <i class="fa fa-envelope-open-text"></i> **Supporting Materials**:
 > 
@@ -131,25 +124,17 @@ If you want to learn more about how to use generative AI, optimize your promptin
 >
 > * [ELIXIR Belgium](https://www.elixir-belgium.org/)
 > * [VIB Technologies](https://www.vib.be/)
->
-> <i class="fa fa-money-bill"></i> **Funding:** This project has received funding from the ELIXIR Programme 2022-2023.
->
-> <i class="fa fa-anchor"></i> **PURL**:  
 
 
 # Authors and Contributors
 
 Authors
 
-- @[orcid(Paulo Czarnewski)](http://orcid.org/0000-0001-8150-4021)
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
+- @[orcid(Jolan Heyse)](http://orcid.org/0000-0003-2179-0366)
 
 Contributors
 
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
-
+- @[orcid(Bruna Piereck)](https://orcid.org/0000-0001-5958-0669)
 
 ## Citing this lesson
 
@@ -157,29 +142,14 @@ Please cite as:
 
   1. ...
 
-# Chapters List
-
-| Chapter | Title                                                   |
-| :---- | :------------------------------------------------         |
-| 0     | [Get ready for the course, instalation and pre-reading](link) |
-| 1     | [Chapter title](link)                                             |
-| 2     | [Chapter title](link)                                             |
-| 3     | [Chapter title](link)                                             |
-
-
 # References
 
-Here are some great tips for learning and to get inspired for writing your own pipelines:
+Here are some great tips for further learning:
 
-- Nextflow's official documentation ([link](https://www.nextflow.io/docs/latest/index.html))
-- Reach out to the community on Slack ([link](https://www.nextflow.io/slack-invite.html))
-- Curated collection of patterns ([link](https://github.com/nextflow-io/patterns))
-- Workshop focused on DSL2 developed by CRG Bioinformatics Core ([link](https://github.com/biocorecrg/ELIXIR_containers_nextflow))
-- Tutorial exercises (DSL1) developed by Seqera ([link](https://github.com/seqeralabs/nextflow-tutorial))
-- Curated ready-to-use analysis pipelines by NF-core ([link](https://nf-co.re/))
-- Model example pipeline on Variant Calling Analysis with NGS RNA-Seq data developed by CRG ([link](https://github.com/CRG-CNAG/CalliNGS-NF))
-- Tutorial by Andrew Severin ([link](https://bioinformaticsworkbook.org/dataAnalysis/nextflow/02_creatingAworkflow.html#gsc.tab=0))
-- Nextflow community basic training ([link](https://training.nextflow.io/basic_training/))
+- GitHub Copilot official documentation ([link](https://docs.github.com/copilot))
+- GitHub Copilot Chat cheat sheet ([link](https://docs.github.com/en/copilot/reference/chat-cheat-sheet))
+- GitHub Copilot Customization cheat sheet ([link](https://docs.github.com/en/copilot/reference/customization-cheat-sheet))
+- Cline official documentation ([link](https://docs.cline.bot/cline-overview))
 
 # About us
 
@@ -203,9 +173,9 @@ The goal of VIB Technology Training is to up-skill life scientists to excel in t
 
 *Editorial team for this course*
 
-Authors: @[orcid(Alexander Botzki)](https://orcid.org/0000-0001-6691-4233), @[orcid(Bruna Piereck)](https://orcid.org/0000-0001-5958-0669)
+Authors: @[orcid(Jolan Heyse)](https://orcid.org/0000-0003-2179-0366)
 
-Technical Editors: Alexander Botzki
+Technical Editors: Bruna Piereck
 
 License: [![CC BY SA](img/picture003.jpg)](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
@@ -213,23 +183,27 @@ License: [![CC BY SA](img/picture003.jpg)](https://creativecommons.org/licenses/
 {
   "@context": "https://schema.org/",
   "@type": "LearningResource",
-  "@id": "https://elixir-europe-training.github.io/ELIXIR-TrP-TeSS/",
+  "@id": "https://vib-training-conferences.github.io/agentic-coding-with-github-copilot/",
   "http://purl.org/dc/terms/conformsTo": {
     "@type": "CreativeWork",
     "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
   },
-  "description": "TeSS, how can I help you? This is our interactive hands-on course about efficient use of the ELIXIR TeSS platform.",
-  "keywords": "FAIR, OPEN, Bioinformatics, Teaching, TeSS",
-  "name": "TeSS, how can I help you?",
+  "description": "In this course we will go beyond chat-based interactions and explore the capabilities of coding agents with GitHub Copilot.",
+  "keywords": "AI, LLM, GitHub Copilot, agentic coding, software development, workflow automation",
+  "name": "Agentic Coding with GitHub Copilot",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "educationalLevel": "beginner",
   "competencyRequired": "none",
   "teaches": [
-    "search events and material in TeSS via direct and faceted search",
-    "add manually and automatically events and material to TeSS",
-    "extract events and material from TeSS by using TeSS widgets"
+    "Explain key concepts and terminology related to agentic coding (agents, planning loops, tools, guardrails).",
+    "Describe the agent loop (goal → plan → act → observe → revise) and its implications for software development.",
+    "Summarize common failure modes and risks of coding agents.",
+    "Write effective prompts and task descriptions that guide agent behavior.",
+    "Critically review agent-generated code for correctness, maintainability, and security.",
+    "Design an end-to-end agentic workflow for a realistic coding scenario.",
+    "Produce a reusable prompt or workflow template that can be applied in your own projects"
   ],
-  "audience": "training providers",
+  "audience": "researches, staff scientists, group leaders, industry professionals, trainers, training providers",
   "inLanguage": "en-US",
   "learningResourceType": [
     "tutorial"
@@ -237,29 +211,13 @@ License: [![CC BY SA](img/picture003.jpg)](https://creativecommons.org/licenses/
   "author": [
     {
       "@type": "Person",
-      "name": "Bruna Piereck"
-    },
-    {
-      "@type": "Person",
-      "name": "Olivier Sand"
-    },
-    {
-      "@type": "Person",
-      "name": "Alexander Botzki"
+      "name": "Jolan Heyse"
     }
   ],
   "contributor": [
     {
       "@type": "Person",
-      "name": "Yasmine Maes"
-    },
-    {
-      "@type": "Person",
-      "name": "Finn Bacall"
-    },
-    {
-      "@type": "Person",
-      "name": "Munazah Andrabi"
+      "name": "Jolan Heyse"
     }
   ]
 }
