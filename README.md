@@ -48,7 +48,7 @@ Lesson overview
 > 1. Basic programming experience (Python or other). You can find [opporutnities for Python and R courses](https://www.vibtrainingandconferences.be/events?text=programming&f%5B0%5D=status%3Aupcoming) if you need.
 > 2. Familiarity with chat-based LLM tools. You can find opportunities for [genAI courses](https://www.vibtrainingandconferences.be/events?text=generative&f%5B0%5D=status%3Aupcoming) we offer.
 > 3. Familiarity with Git is advisable. You can follow the introductory [course on Git and GitHub](https://www.vibtrainingandconferences.be/events?text=versioning&f%5B0%5D=status%3Aupcoming) if necessary.
-> 4. GitHub account (and Pro license preferrably). GitHub [Copilot license](https://github.com/features/copilot/plans) or [Educational license](https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-teachers-and-os-maintainers) for Teachers.
+
 >
 > <i class="fa fa-bookmark"></i> **Description**  Are you ready to go beyond simple chat-based coding and unlock the power of structured, agentic workflows? In this hands-on workshop, you'll learn how to move beyond chat-based coding and design structured, agentic coding workflows. Using GitHub Copilot, you will learn to write effective prompts, leverage LLMs for multi-file coding tasks, and design workflows that plan, act, and iterate safely. You’ll also explore how to evaluate agent outputs, implement guardrails, and address important risks and governance issues. By the end of the training, you'll be able to use LLMs for structured coding tasks, design robust agentic workflows, and enhance productivity in your own projects.
 > 
@@ -69,14 +69,13 @@ Lesson overview
 >
 > 7. Produce a reusable prompt or workflow template that can be applied in your own projects
 >
-> <i class="fa fa-hourglass"></i> **Time estimation**: Full day (6-7 hours)
+> <i class="fa fa-hourglass"></i> **Time estimation**: 7 hours (1 day)
 >
 > <i class="fa fa-asterisk"></i> **Requirements:**
 >
-> - Basic programming experience (Python or other)
-> - Familiarity with chat-based LLM tools
-> - Familiarity with Git is advisable
-> - GitHub account (and license)
+> 1. GitHub account (and Pro license preferrably). 
+>
+> [GitHub Copilot license](https://github.com/features/copilot/plans) or [GitHub Educational license](https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-teachers-and-os-maintainers) for Teachers.
 >
 > <i class="fa fa-envelope-open-text"></i> **Supporting Materials**:
 > 
