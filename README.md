@@ -31,48 +31,10 @@ import:   https://raw.githubusercontent.com/vib-tcp/training_material_template/r
 
 -->
 
-# @CourseTitle
+# Agentic coding with GitHub Copilot
 
-<section>
-
-Hello and welcome to our workshop! We are very happy to have you here.
-
-This is the @edition edition of this workshop, organised by VIB.
-
-> We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript.
-> It is a distributed way of creating and sharing educational content hosted on github.
-> To see this document as an interactive LiaScript rendered version, click on the
-> following link/badge: [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-tcp/training_material_template/main/README.md)
-
-## General context
-
-In this hands-on workshop, you'll learn how to move beyond chat-based coding and design structured, agentic coding workflows. Using GitHub Copilot, you will learn to write effective prompts, leverage LLMs for multi-file coding tasks, and design workflows that plan, act, and iterate safely. The course features a mix of explanations, live demonstrations, and hands-on exercises, giving you the opportunity to apply LLMs to real-world coding challenges. You’ll also explore how to evaluate agent outputs, implement guardrails, and address important risks and governance issues. By the end of the training, you'll be able to use LLMs for structured coding tasks, design robust agentic workflows, and enhance productivity in your own projects.
-
-#### Approach
-To follow along effectively with this course and do the exercises, you need to have a license for GitHub Copilot.
-
-> Tip: Students and teachers can apply for a free Pro license through GitHub Education. 
-
-#### Complimentary reading:
-If you want to learn more about how to use generative AI, optimize your prompting techniques, and get to know LLM tools that help with literature research, writing, image generation, etc., you can follow our course on Strategic Use of Generative AI.
-
-#### Required skills
-
-
-## Proposed Schedule
-
-- 09:30 - 10:30 - Chat-based coding: capabilities and limits
-- 10:30 - 10:45 - Coffee break
-- 10:45 - 12:30 - Essential features of GitHub Copilot
-- 12:30 - 13:30 - Lunch break
-- 13:30 - 14:45 - Agentic control and workflow automation
-- 14:45 - 15:30 - Responsible use of GitHub Copilot
-- 15:30 - 15:45 - Coffee break
-- 15:45 - 17:00 - Mini-project: implement an end-to-end agentic workflow
-
-</section>
-
-# Lesson overview
+Lesson overview
+----------------
 
 > <i class="fa fa-lock"></i> **License:** [Creative Commons Attribution 4.0 International  License](https://creativecommons.org/licenses/by/4.0/deed.en)
 >
@@ -81,11 +43,12 @@ If you want to learn more about how to use generative AI, optimize your promptin
 > <svg xmlns="http://www.w3.org/2000/svg" height="14" width="16" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M384 64c0-17.7 14.3-32 32-32H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448v96c0 17.7-14.3 32-32 32H320v96c0 17.7-14.3 32-32 32H192v96c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h96V320c0-17.7 14.3-32 32-32h96V192c0-17.7 14.3-32 32-32h96V64z"/></svg> **Level:** Beginner  
 >
 > <i class="fa fa-arrow-left"></i> **Prerequisites**  
-> To be able to follow this course, learners should have knowledge in:
+> To be able to follow this course, learners should have:
 > 
-> 1. Basic knowlegde of HTML  
-> 2. Basic knowledge of ...
-> 3. Being comfortable working with ....  
+> 1. Basic programming experience (Python or other). You can find [opporutnities for Python and R courses](https://www.vibtrainingandconferences.be/events?text=programming&f%5B0%5D=status%3Aupcoming) if you need.
+> 2. Familiarity with chat-based LLM tools. You can find opportunities for [genAI courses](https://www.vibtrainingandconferences.be/events?text=generative&f%5B0%5D=status%3Aupcoming) we offer.
+> 3. Familiarity with Git is advisable. You can follow the introductory [course on Git and GitHub](https://www.vibtrainingandconferences.be/events?text=versioning&f%5B0%5D=status%3Aupcoming) if necessary.
+> 4. GitHub account (and Pro license preferrably). GitHub [Copilot license](https://github.com/features/copilot/plans) or [Educational license](https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-teachers-and-os-maintainers) for Teachers.
 >
 > <i class="fa fa-bookmark"></i> **Description**  This course consist of .....
 > 
@@ -150,6 +113,45 @@ Here are some great tips for further learning:
 - GitHub Copilot Chat cheat sheet ([link](https://docs.github.com/en/copilot/reference/chat-cheat-sheet))
 - GitHub Copilot Customization cheat sheet ([link](https://docs.github.com/en/copilot/reference/customization-cheat-sheet))
 - Cline official documentation ([link](https://docs.cline.bot/cline-overview))
+
+<section>
+
+Hello and welcome to our workshop! We are very happy to have you here.
+
+This is the @edition edition of this workshop, organised by VIB.
+
+> We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript.
+> It is a distributed way of creating and sharing educational content hosted on github.
+> To see this document as an interactive LiaScript rendered version, click on the
+> following link/badge: [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-tcp/training_material_template/main/README.md)
+
+## General context
+
+In this hands-on workshop, you'll learn how to move beyond chat-based coding and design structured, agentic coding workflows. Using GitHub Copilot, you will learn to write effective prompts, leverage LLMs for multi-file coding tasks, and design workflows that plan, act, and iterate safely. The course features a mix of explanations, live demonstrations, and hands-on exercises, giving you the opportunity to apply LLMs to real-world coding challenges. You’ll also explore how to evaluate agent outputs, implement guardrails, and address important risks and governance issues. By the end of the training, you'll be able to use LLMs for structured coding tasks, design robust agentic workflows, and enhance productivity in your own projects.
+
+#### Approach
+To follow along effectively with this course and do the exercises, you need to have a license for GitHub Copilot.
+
+> Tip: Students and teachers can apply for a free Pro license through GitHub Education. 
+
+#### Complimentary reading:
+If you want to learn more about how to use generative AI, optimize your prompting techniques, and get to know LLM tools that help with literature research, writing, image generation, etc., you can follow our course on Strategic Use of Generative AI.
+
+#### Required skills
+
+
+## Proposed Schedule
+
+- 09:30 - 10:30 - Chat-based coding: capabilities and limits
+- 10:30 - 10:45 - Coffee break
+- 10:45 - 12:30 - Essential features of GitHub Copilot
+- 12:30 - 13:30 - Lunch break
+- 13:30 - 14:45 - Agentic control and workflow automation
+- 14:45 - 15:30 - Responsible use of GitHub Copilot
+- 15:30 - 15:45 - Coffee break
+- 15:45 - 17:00 - Mini-project: implement an end-to-end agentic workflow
+
+</section>
 
 # About us
 
