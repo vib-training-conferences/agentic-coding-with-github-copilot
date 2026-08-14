@@ -77,7 +77,7 @@ Lesson overview
 >
 > [GitHub Copilot license](https://github.com/features/copilot/plans) or [GitHub Educational license](https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-teachers-and-os-maintainers) for Teachers.
 >
-> 2. The (technical) installation requirements are described in the chapter ["Get ready"](link).
+> 2. The (technical) installation requirements are described in the chapter ["Get ready"](./docs/chapter/01_get_ready_for_the_course.md).
 >
 > <i class="fa fa-envelope-open-text"></i> **Supporting Materials**:
 > 
