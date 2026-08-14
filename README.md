@@ -101,7 +101,7 @@ Lesson overview
 >
 > <i class="fa fa-money-bill"></i> **Funding:** This project has received funding from VIB.
 >
-> <i class="fa fa-anchor"></i> **PURL**: 
+> <i class="fa fa-anchor"></i> **PURL**: [<img src="https://raw.githubusercontent.com/vib-training-conferences/agentic-coding-with-github-copilot/refs/heads/main/docs/images/AgenticCodingZenodo.20344675.svg" width="200"/>](https://zenodo.org/records/20344675)
 >
 > # Authors and Contributors
 >
