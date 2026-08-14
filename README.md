@@ -119,8 +119,9 @@ Lesson overview
 >
 > > # Chapters List
 >
-> | Chapter | Title | Summary | 
-> | :---    |:---   |:---     |
+> | Chapter | Title | 
+> | :---    |:---   |
+> |1        | [Get Ready for the course](./docs/chapter/01_get_ready_for_the_course.md)|
 
 # References
 
