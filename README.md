@@ -77,9 +77,11 @@ Lesson overview
 >
 > [GitHub Copilot license](https://github.com/features/copilot/plans) or [GitHub Educational license](https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-teachers-and-os-maintainers) for Teachers.
 >
+> 2. The (technical) installation requirements are described in the chapter ["Get ready"](link).
+>
 > <i class="fa fa-envelope-open-text"></i> **Supporting Materials**:
 > 
-> 1. [Exercises and solutions](link)
+> 1. [Exercises and solutions](./exercises/)
 > 2. [Slides](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-tcp/training_material_template/refs/heads/main/supplementary/chapter_01_presentation.md)  
 > 
 > <i class="fa fa-life-ring"></i> **Acknowledgement**:
