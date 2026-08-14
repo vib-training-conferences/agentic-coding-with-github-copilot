@@ -84,27 +84,43 @@ Lesson overview
 > 1. [Exercises and solutions](./exercises/)
 > 2. [Slides](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-tcp/training_material_template/refs/heads/main/supplementary/chapter_01_presentation.md)  
 > 
+> ## Proposed Schedule
+>
+>> * 09:30 - 10:30 - Chat-based coding: capabilities and limits
+>> * 10:30 - 10:45 - Coffee break
+>> * 10:45 - 12:30 - Essential features of GitHub Copilot
+>> * 12:30 - 13:30 - Lunch break
+>> * 13:30 - 14:45 - Agentic control and workflow automation
+>> * 14:45 - 15:30 - Responsible use of GitHub Copilot
+>> * 15:30 - 15:45 - Coffee break
+>> * 15:45 - 17:00 - Mini-project: implement an end-to-end agentic workflow
+>
 > <i class="fa fa-life-ring"></i> **Acknowledgement**:
 >
-> * [ELIXIR Belgium](https://www.elixir-belgium.org/)
 > * [VIB Technologies](https://www.vib.be/)
-
-
-# Authors and Contributors
-
-Authors
-
-- @[orcid(Jolan Heyse)](http://orcid.org/0000-0003-2179-0366)
-
-Contributors
-
-- @[orcid(Bruna Piereck)](https://orcid.org/0000-0001-5958-0669)
-
-## Citing this lesson
-
-Please cite as:
-
-  1. ...
+>
+> <i class="fa fa-money-bill"></i> **Funding:** This project has received funding from VIB.
+>
+> <i class="fa fa-anchor"></i> **PURL**: 
+>
+> # Authors and Contributors
+>
+> Authors
+>
+> - @[orcid(Jolan Heyse)](http://orcid.org/0000-0003-2179-0366)
+>
+> Contributors
+>
+> - @[orcid(Bruna Piereck)](https://orcid.org/0000-0001-5958-0669)
+>
+> ## Citing this lesson
+>
+>Please cite as:
+>
+> > # Chapters List
+>
+> | Chapter | Title | Summary | 
+> | :---    |:---   |:---     |
 
 # References
 
@@ -115,44 +131,12 @@ Here are some great tips for further learning:
 - GitHub Copilot Customization cheat sheet ([link](https://docs.github.com/en/copilot/reference/customization-cheat-sheet))
 - Cline official documentation ([link](https://docs.cline.bot/cline-overview))
 
-<section>
-
-Hello and welcome to our workshop! We are very happy to have you here.
-
-This is the @edition edition of this workshop, organised by VIB.
+# Workshop and Material organization
 
 > We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript.
 > It is a distributed way of creating and sharing educational content hosted on github.
 > To see this document as an interactive LiaScript rendered version, click on the
 > following link/badge: [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-tcp/training_material_template/main/README.md)
-
-## General context
-
-In this hands-on workshop, you'll learn how to move beyond chat-based coding and design structured, agentic coding workflows. Using GitHub Copilot, you will learn to write effective prompts, leverage LLMs for multi-file coding tasks, and design workflows that plan, act, and iterate safely. The course features a mix of explanations, live demonstrations, and hands-on exercises, giving you the opportunity to apply LLMs to real-world coding challenges. You’ll also explore how to evaluate agent outputs, implement guardrails, and address important risks and governance issues. By the end of the training, you'll be able to use LLMs for structured coding tasks, design robust agentic workflows, and enhance productivity in your own projects.
-
-#### Approach
-To follow along effectively with this course and do the exercises, you need to have a license for GitHub Copilot.
-
-> Tip: Students and teachers can apply for a free Pro license through GitHub Education. 
-
-#### Complimentary reading:
-If you want to learn more about how to use generative AI, optimize your prompting techniques, and get to know LLM tools that help with literature research, writing, image generation, etc., you can follow our course on Strategic Use of Generative AI.
-
-#### Required skills
-
-
-## Proposed Schedule
-
-- 09:30 - 10:30 - Chat-based coding: capabilities and limits
-- 10:30 - 10:45 - Coffee break
-- 10:45 - 12:30 - Essential features of GitHub Copilot
-- 12:30 - 13:30 - Lunch break
-- 13:30 - 14:45 - Agentic control and workflow automation
-- 14:45 - 15:30 - Responsible use of GitHub Copilot
-- 15:30 - 15:45 - Coffee break
-- 15:45 - 17:00 - Mini-project: implement an end-to-end agentic workflow
-
-</section>
 
 # About us
 
