@@ -50,7 +50,7 @@ Lesson overview
 > 3. Familiarity with Git is advisable. You can follow the introductory [course on Git and GitHub](https://www.vibtrainingandconferences.be/events?text=versioning&f%5B0%5D=status%3Aupcoming) if necessary.
 > 4. GitHub account (and Pro license preferrably). GitHub [Copilot license](https://github.com/features/copilot/plans) or [Educational license](https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-teachers-and-os-maintainers) for Teachers.
 >
-> <i class="fa fa-bookmark"></i> **Description**  This course consist of .....
+> <i class="fa fa-bookmark"></i> **Description**  Are you ready to go beyond simple chat-based coding and unlock the power of structured, agentic workflows? In this hands-on workshop, you'll learn how to move beyond chat-based coding and design structured, agentic coding workflows. Using GitHub Copilot, you will learn to write effective prompts, leverage LLMs for multi-file coding tasks, and design workflows that plan, act, and iterate safely. You’ll also explore how to evaluate agent outputs, implement guardrails, and address important risks and governance issues. By the end of the training, you'll be able to use LLMs for structured coding tasks, design robust agentic workflows, and enhance productivity in your own projects.
 > 
 > <i class="fa fa-arrow-right"></i> **Learning Outcomes:**
 > By the end of the course, learners will be able to:
