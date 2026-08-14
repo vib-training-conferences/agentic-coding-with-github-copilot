@@ -115,7 +115,9 @@ Lesson overview
 > 
 > ## Citing this lesson
 >
->Please cite as:
+> Please cite as:
+>
+> Heyse, J. (2026, May 22). Agentic Coding with GitHub Copilot. Zenodo. https://doi.org/10.5281/zenodo.20344675
 >
 > # Chapters List
 >
